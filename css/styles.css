@@ -258,9 +258,9 @@ button:active {
 }
 
 .home-section {
-  background-image: url("/img/residencial-img.png");
+  background-image: url("/img/residencial-img.webp");
   background-image: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.048)),
-    url("/img/residencial-img.png");
+    url("/img/residencial-img.webp");
   background-repeat: no-repeat;
   width: 33.3%;
   transition: all 0.5s ease;
@@ -269,7 +269,7 @@ button:active {
 .home-section:hover {
   scale: 1.05;
   background-image: linear-gradient(rgba(0, 19, 48, 0.9), rgba(0, 0, 0, 0.95)),
-    url("/img/residencial-img.png");
+    url("/img/residencial-img.we");
 }
 
 .vertical-section {
