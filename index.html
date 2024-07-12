@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+
+<body id="inicio">  
+  <a class="whatsapp-button" target="_blank" href="https://wa.me/523330643398" ><img src="icons/icon-whatsapp.svg" height="64px" alt="">
+    <p>¡Enviar Whatsapp!</p>
+  </a>
+  <!-- Desktop Menu-->
+  <nav  class="navigation-bar">
+    <div class="logo-container">
+      <img height="40px" src="/img/habitech-logo.png" alt="">
+    </div>
+    <button onclick=showMenu() class="open-menu">
+      <img src="icons/icon-open.svg" alt="">
+    </button>
+    <div class="navigation-container">
+      <a class="navigation-item" href="#inicio">Inicio</a>
+      <a class="navigation-item" href="#servicios">Servicios</a>
+      <a class="navigation-item" href="#acerca">Nosotros</a>
+      <a class="navigation-item" href="#proyectos">Proyectos</a>
+      <a class="navigation-item" href="#contacto">Contacto</a>
+    </div>
+  </nav>
+    <!-- Mobile Menu--> 
+    <nav  class="aside-bar">
+      <button onclick="closeMenu()" class="close-menu">
+        <img src="icons/icon-close.svg" alt="">
+      </button>
+      <h3 class="aside-item company-name-mobile">Habitech</h3>
+      <div class="aside-container">
+        <a onclick="closeMenu()" class="aside-item" href="#inicio">Inicio</a>
+        <a onclick="closeMenu()" class="aside-item" href="#servicios">Servicios</a>
+        <a onclick="closeMenu()" class="aside-item" href="#acerca">Nosotros</a>
+        <a onclick="closeMenu()" class="aside-item" href="#proyectos">Proyectos</a>
+        <a onclick="closeMenu()" class="aside-item" href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  <main class="main-section">
+    <h1>Control y Automatizacion <br> De Grandes Projectos</h1>
+    <h2>Controla Todo Desde La Palma De Tu Mano</h2>
+    <a class="primary-button"  href="https://wa.me/523330643398" target="_blank">Cotiza Ahora</a>
+  </main>
+  <h2 id="servicios" class="service-title">Servicios</h2>
+  <section class="services-section scroll-element">
+    <div class="home-section">
+      <h3>Residencial</h2>
+      <p>
+        Desde la concepción hasta la transformación inteligente de tu hogar. Descubre la excelencia en cada detalle con nuestros desarrollos residenciales y la posibilidad de convertir cualquier propiedad en un espacio inteligente. Experimenta la fusión perfecta entre la elegancia tradicional y la innovación del mañana.
+    </div>
+    <div class="vertical-section">
+      <h3>Desarrollo Vertical</h2>
+      <p>
+        Eleva tu estilo de vida y tu negocio al siguiente nivel. Con nuestras torres de departamentos y edificios comerciales, y la capacidad de transformar cualquier construcción en un proyecto inteligente, redefine el concepto de sofisticación urbana. Donde la altura se encuentra con la inteligencia, y la excelencia es la única dirección.
+      </p>  
+    </div>
+    <div class="comercial-section">
+      <h3>Comercial</h2>
+      <p>
+        Impulsa tu visión empresarial con nuestra oferta de espacios comerciales y la opción de modernizar cualquier propiedad a través de la inteligencia. Desde oficinas de vanguardia hasta locales comerciales adaptados a las demandas del futuro, te ofrecemos más que una construcción: te brindamos la oportunidad de evolucionar tu negocio hacia la excelencia inteligente.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services List Cards-->
+  <section class="services-list-container scroll-element">
+    <div class="services-list-head">
+      <h2>Nos Especializamos en</h2>
+    </div>
+  <div class="services-list">
+    <article class="service-item">
+      <div class="service-item-head">
+        <img src="/img/icons/icon-sound.png" alt="">
+        <h4>Audio</h4>
+      </div>
+      <div>
+        <p>Controla sistemas Hi-Fi desde la palma de tu mano o con tu voz. Ideal para cine en casa y estudios de música
+      </div>
+    </article>
+    <article class="service-item">
+      <div class="service-item-head">
+        <img src="/img/icons/icon-video.png" alt="">
+        <h4>Video</h4>
+      </div>
+      <div>
+        <p>Centraliza el video de tus fuentes de entretenimiento y observa simultáneamente sistemas de videovigilancia y programas en diferentes habitaciones.
+        </p>
+      </div>
+    </article>
+    <article class="service-item">
+      <div class="service-item-head">
+        <img src="/img/icons/icon-light.png" alt="">
+        <h4>Iluminación</h4>
+      </div>
+      <div>
+        <p>Diseña tus espacios con distintos estilos. Crea ambientes decorativos, relajantes o de alta concentración, manteniendo la estética y optimizando el ahorro energético.</p>
+      </div>
+    </article>
+    <article class="service-item">
+      <div class="service-item-head">
+        <img src="/img/icons/icon-control.png" alt="">
+        <h4>Control Central</h4>
+      </div>
+      <div>
+        <p>DUnifica todos tus dispositivos electrónicos en una sola plataforma para controlar tu hogar con comandos de voz, horarios o escenas predeterminadas.</p>
+      </div>
+    </article>
+    <article class="service-item">
+      <div class="service-item-head">
+        <img src="/img/icons/icon-security.png" alt="">
+        <h4>Seguritdad</h4>
+      </div>
+      <div>
+        <p>Personaliza tu seguridad con avanzados sistemas de videovigilancia, alarmas, detección de intrusiones y de humo, todo controlado desde una aplicación móvil, estés donde estés.</p>
+      </div>
+    </article>
+    <article class="service-item">
+      <div class="service-item-head">
+        <img src="/img/icons/icon-access.png" alt="">
+        <h4>Control de Accesod</h4>
+      </div>
+      <div>
+        <p>Identifica a tu familia biométricamente para darles acceso. Controla visitas y entrada de servicio de forma remota. Recibe notificaciones de entregas en tu app móvil.</p>
+      </div>
+    </article>
+  </article>
+  <article class="service-item">
+    <div class="service-item-head">
+      <img src="/img/icons/icon-site.png" alt="">
+      <h4>Site</h4>
+    </div>
+    <div>
+      <p>Centraliza tus equipos en un ambiente controlado, libre de intervenciones y fácil de mantener. Asegura un funcionamiento duradero y eficiente.</p>
+    </div>
+  </article>
+  <article class="service-item">
+    <div class="service-item-head">
+      <img src="/img/icons/icon-energy.png" alt="">
+      <h4>Energía</h4>
+    </div>
+    <div>
+      <p>
+        Implementa en tu hogar un sistema eléctrico de media y baja tensión con balanceo de cargas y cálculo de consumo, logrando un sistema estable, eficiente, seguro y normativo
+      </p>
+    </div>
+  </article>
+  <article class="service-item">
+    <div class="service-item-head">
+      <img src="/img/icons/icon-solar.png" alt="">
+      <h4>Paneles Solares</h4>
+    </div>
+    <div>
+      <p>
+        Vuelve tu hogar ecológico y ahorra en energía con paneles solares. Añade generadores de emergencia o baterías de respaldo para protección ante imprevistos.
+      </p>
+    </div>
+  </article>
+  <article class="service-item">
+    <div class="service-item-head">
+      <img src="/img/icons/icon-weather.png" alt="">
+      <h4>Climatización</h4>
+    </div>
+    <div>
+      <p>
+        Automatiza tus cortinas y ajusta la temperatura según el horario, la época del año y otros factores importantes.
+      </p>
+    </div>
+  </article>
+  </div>
+  <a class="primary-button"  href="https://wa.me/523330643398" target="_blank">Solicitar Cotización</a>
+</section>
+
+  
+
+  <!-- Que hacemos-->
+   <div class="about-section scroll-element">
+     <h2 id="acerca">Que hacemos ?</h2>
+  <div  class="about-us-section">
+    <div class="left-container">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/hH9PC-IHFVQ?si=HMVv-Nx0qLm5scBd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="right-container"> 
+      <article class="about-us-card">
+        <h3>
+          Tecnología y Automatización Residencial, Comercial e Industrial
+        </h3>
+        <p>
+          Somos una empresa 100% mexicana dedicada a la automatización de residencias, complejos habitacionales, desarrollos comerciales e industriales. Volvemos tus espacios más cómodos, seguros y eficientes, integramos espacios de audio, video, iluminación, seguridad y control. Generamos soluciones creativas para el desarrollo de espacios inteligentes.
+        </p>
+        <h3>
+          Volveremos Tus Espacios Inteligentes
+        </h3>
+        <p>
+          Transforma tu hogar con nuestras soluciones de audio y video de alta calidad, sistemas de seguridad avanzados, y escenas de iluminación eficientes. Interactúa en tiempo real con control por voz y plataformas inteligentes para una experiencia de confort y seguridad incomparable.
+        </p>
+      </article>
+      <a class="primary-button"  href="https://wa.me/523330643398" target="_blank">Solicitar Información</a>
+    </div>
+  </div>
+  </div>
+
+  <section class="our-brands scroll-element">
+    <h2>Marcas que Confían en Nosotros</h2>
+    <div class="slider">
+      <div class="slider-track">
+        <div class="slide"><img src="img/logo-lutron.png" alt="Imagen 1"></div>
+        <div class="slide"><img src="img/logo-bw.png" alt="Imagen 2"></div>
+        <div class="slide"><img src="img/logo-crestron.png" alt="Imagen 3"></div>
+        <div class="slide"><img src="img/logo-sonos.png" alt="Imagen 4"></div>
+        <div class="slide"><img src="img/logo-hikvision.png" alt="Imagen 5"></div>
+        <div class="slide"><img src="img/logo-samsung.png" alt="Imagen 1"></div>
+        <div class="slide"><img src="img/logo-marantz.png" alt="Imagen 2"></div>
+        <div class="slide"><img src="img/logo-philips.png" alt="Imagen 3"></div>
+        <div class="slide"><img src="img/logo-honeywell.png" alt="Imagen 4"></div>
+        <div class="slide"><img src="img/logo-panduit.png" alt="Imagen 5"></div>
+        <div class="slide"><img src="img/logo-ubiquiti.png" alt="Imagen 5"></div>
+        <div class="slide"><img src="img/logo-grandstream.png" alt="Imagen 5"></div>
+        <div class="slide"><img src="img/logo-planelec.png" alt="Imagen 5"></div>
+        <div class="slide"><img src="img/logo-viakon.png" alt="Imagen 5"></div>
+        <div class="slide"><img src="img/logo-hid.png" alt="Imagen 5"></div>
+        <div class="slide"><img src="img/logo-nest.png" alt="Imagen 5"></div>
+        <div class="slide"><img src="img/logo-rosslare.png" alt="Imagen 5"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="gallery-container">
+    <h2 id="proyectos" class="gallery-title scroll-element">Proyectos</h2>
+    <div class="grid-container">
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectamgle-01.JPG" alt="Imagen 1"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-02.jpg" alt="Imagen 2"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-10.JPG" alt="Imagen 3"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-04.jpg" alt="Imagen 4"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-06.jpg" alt="Imagen 5"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-05.jpg" alt="Imagen 6"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-07.jpg" alt="Imagen 7"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-08.jpg" alt="Imagen 8"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-09.JPG" alt="Imagen 9"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-03.jpg" alt="Imagen 10"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-11.jpg" alt="Imagen 11"></div>
+      <div onclick="openFullScreen(this)" class="grid-item"><img src="img/Rectangle-12.jpg" alt="Imagen 12"></div>
+    </div>
+  </div>
+  <div id="fullScreenOverlay" onclick="closeFullScreen()"></div>
+  
+  <form id="contacto" class="form-section scroll-element" method="post" action="enviar_formulario.php">
+    <h2>Entremos en Contacto</h2>
+    <div class="contact-container">
+    <div class="left-contact">
+      <h3>Horario de Atención</h3>
+      <p>Lunes a Viernes : 9:00 - 18:00</p>
+      <p>Av. San Luis Gonzaga 4956-Local #5, Jardines de Guadalupe, 45030 Zapopan, Jal.</p>
+      <p>C.P 44500, Jalisco, México</p>
+      <p>Teléfono (33) 3358 8790</p>
+      <iframe class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.1133970667115!2d-103.42591042475333!3d20.664965080894945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af0031a96217%3A0xf0dd901f1949f949!2sHabitech%20-%20Soluciones%20Inteligentes.!5e0!3m2!1sen!2smx!4v1720419423176!5m2!1sen!2smx"
+      width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+    </div>
+    <div class="right-contact">
+      <h3>Cuentanos de tu proyecto</h3>
+      <div class="input-component">
+        <label for="nombre">*Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="input-component">
+        <label for="asunto">*Asunto</label>
+        <input type="text" id="asunto" name="asunto" required>
+      </div>
+      <div class="input-component">
+        <label for="mensaje">*Mensaje</label>
+        <textarea id="mensaje" name="mensaje" required>
+          </textarea>
+      </div>
+      <button type="submit" class="send-button">
+        Enviar
+      </button>
+    </div>
+  </div>
+  </form>
+
+  <footer class="footer-container scroll-element">
+    <div class="footer-columns">
+      <h3>Contact</h3>
+      <ul>
+        <li class="footer-link">
+          <a href="mailto:ejemplo@mail.com">
+            <img src="icons/icon-mail.svg" alt="Email" class="social-icon">
+            <p>email@example.com</p>
+          </a>
+          
+        </li>
+        <li class="footer-link">
+          <a href="https://maps.app.goo.gl/HvQJ4Aj9fUAsXxBr8" target="_blank">
+            <img src="icons/icon-location.svg" alt="Facebook" class="social-icon">
+            <p>Av. San Luis Gonzaga 4956-Local #5, Jardines de Guadalupe, 45030 Zapopan, Jal.</p>
+          </a>
+          </li>
+        <li class="footer-link">
+          <a href="tel:+523333588790">
+            <img src="icons/icon-phone.svg" alt="Facebook" class="social-icon">
+            <p>(33) 3358 8790</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-columns
+        ">
+      <h3>Siguenos En Redes Sociales</h3>
+      <ul>
+        <li class="footer-link">
+          <a href="https://www.facebook.com/habitechmexico/" target="_blank">
+            <img src="icons/icon-facebook.svg" alt="Facebook" class="social-icon">
+            <p>Facebook</p>
+          </a>
+          </li>
+        <li class="footer-link">
+          <a href="https://twitter.com/tu_cuenta_de_twitter" target="_blank">
+            <img src="/icons/icon-twitter.svg" alt="Twitter" class="social-icon">
+            <p>Twitter</p>
+          </a>
+        </li>
+        <li class="footer-link">
+          <a href="https://www.instagram.com/habitech.mexico" target="_blank">
+            <img src="/icons/icon-instagram.svg" alt="Instagram" class="social-icon">
+            <p>Instagram</p>           
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-columns repse-container">
+      <img src="/img/logo-repse.png" height="120px" alt="">
+    </div>
+  </footer>
+  <script src="index.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>
